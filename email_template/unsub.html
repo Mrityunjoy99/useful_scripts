@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a
+      href="{{.props.user_email | unsubscribeMarketingEmail}}"
+      style="
+        font-family: 'Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+      "
+      >Unsubscribe{{.props.user_email}}</a
+    >
+  </body>
+</html>
